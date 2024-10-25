@@ -1,5 +1,5 @@
 # PixelSpeed-Games
-![image](file:///E:/heji/%E6%A1%8C%E9%9D%A2/PixelSpeed-Games/Image/1.jpg)
+![image](images/1.jpg)
 ## Introduction
 Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adversaires contrôlés par l'intelligence artificielle (IA) sur différents circuits. Les courses sont enrichies par un système d'objets spéciaux qui peuvent être utilisés stratégiquement pendant la course.
 
