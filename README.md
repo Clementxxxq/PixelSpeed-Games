@@ -51,3 +51,22 @@ Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adver
 |avoidObstacles()|
 
 
+### Class  D： Item (Factory Pattern)
+
+| Attribut | Fonctions |
+|-----:|---------------|
+|position|setPosition(),getPosition()|
+|effect|setEffect(),getEffect()|
+
+| Méthodes |
+|-----|
+|Activate()|
+
+| Objets spéciaux  | Effet |
+|-----:|---------------|
+|Boost de Vitesse|Augmente la vitesse du véhicule|
+|Bouclier défensif|Protection contre les attaques|
+|Missile guide|Cibler et attaquer les véhicules|
+|Tache d'huile|Ralentit les véhicules qui passent|
+|EMP|Arrêt temporaire d'un véhicule non protégé|
+
