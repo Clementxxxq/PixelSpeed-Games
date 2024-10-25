@@ -39,6 +39,19 @@ Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adver
 |useBoost()|
 
 
+#### Class  B1： PlayerVehicle (Hérite de Vehicle)
+
+| Méthodes |
+|-----|
+|controlVehicle()()|
+
+#### Class  B2： AIVehicle  (Hérite de Vehicle)
+
+| Méthodes |
+|-----|
+|navigateTrack()|
+
+
 ### Class  C： AIController
 
 | Attribut | Fonctions |
@@ -49,6 +62,7 @@ Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adver
 | Méthodes |
 |-----|
 |avoidObstacles()|
+|calculateShortestPath()|
 
 
 ### Class  D： Item (Factory Pattern)
@@ -69,4 +83,15 @@ Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adver
 |Missile guide|Cibler et attaquer les véhicules|
 |Tache d'huile|Ralentit les véhicules qui passent|
 |EMP|Arrêt temporaire d'un véhicule non protégé|
+
+### Class  E： Track
+
+
+### Class  F： UIManager
+| Attribut | Fonctions |
+|-----:|---------------|
+|scoreBoard|setScoreBoard(),getScoreBoard()|
+|miniMap|setMiniMap(),getMiniMap()|
+|roundNumber|setrRoundNumber(),getRoundNumberp()|
+|miniMap|setMiniMap(),getMiniMap()|
 
