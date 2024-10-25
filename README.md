@@ -95,3 +95,23 @@ Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adver
 |roundNumber|setrRoundNumber(),getRoundNumberp()|
 |miniMap|setMiniMap(),getMiniMap()|
 
+
+### Class  G： RaceManager
+
+
+
+### Class  H： ScoreManager(Singleton Pattern)
+
+| Attribut | Fonctions |
+|-----:|---------------|
+|Score|public setScore(),public getScore()|
+|HighScore|public setHighScore(),public getHighScore()|
+|ScoreText|public setScoreText(),public getScoreText()|
+
+| Méthodes |
+|-----|
+|AddScore()|
+|ResetScore()|
+|UpdateScoreUI()|
+|SaveHighScore()|
+|LoadHighScore()|
