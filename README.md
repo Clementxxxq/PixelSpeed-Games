@@ -5,4 +5,49 @@ Turbo Rivals est un jeu de course dynamique où les joueurs affrontent des adver
 
 ## Hiérarchie des Classes
 
+### Class  A： TurboRivalsGame (Singleton)
+
+| Attribut | Fonctions |
+|-----:|---------------|
+|circuits|setCircuits(),getCircuits()|
+|currentRace|setCurrentRace(),getCurrentRace()|
+|player|setPlayer(),getPlayer()|
+|AIControllers|setAIControllers(),getAIControllers()|
+
+| Méthodes |
+|-----|
+|startGame()|
+|endGame()|
+|loadRace()|
+
+
+### Class  B： Vehicle (Abstract Factory Pattern)
+
+| Attribut | Fonctions |
+|-----:|---------------|
+|speed|setSpeed(),getSpeed()|
+|position|setPosition(),getPosition()|
+|direction|setDirection(),getDirection()|
+|boosts|setBoosts(),getBoosts()|
+
+| Méthodes |
+|-----|
+|accelerate()|
+|decelerate()|
+|turnLeft()|
+|turnRight()|
+|useBoost()|
+
+
+### Class  C： AIController
+
+| Attribut | Fonctions |
+|-----:|---------------|
+|targetPosition|setTargetPosition(),getTargetPosition()|
+|currentVehicle|setCurrentVehicle(),getCurrentVehicle()|
+
+| Méthodes |
+|-----|
+|avoidObstacles()|
+
 
